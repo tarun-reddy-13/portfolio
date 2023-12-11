@@ -1,0 +1,124 @@
+:root{
+    color: #3d3d3d;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+.main{
+    min-height: 500px;
+    max-width: 1900px;
+    margin: auto;
+    background-color: blanchedalmond;
+}
+header{
+    background-color: #527853;
+    margin: auto;
+    padding: 1%;
+}
+body{
+    
+    
+}
+.intro h1 span{
+    color: black;
+}
+#profile{
+    width: 200px;
+    height: auto;
+    border: 10px solid rgb(153, 130, 101) ;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+img:hover
+{
+    transform: scale(1.1);
+    transition: all .5s ease-in-out;
+}
+h1{
+    color: rgb(27, 27, 27);
+    font-size: 22px;
+    font-family: cursive;
+}
+.head{
+    padding-top: 4%;
+    padding-bottom: 8%;
+    background-color:#F9E8D9;
+    margin: auto;
+}
+.dp{
+    width: 60%;
+    height: auto;
+}
+.contact{
+    width: 30%;
+    margin-left: 60%;
+    margin-top: -11%;
+    margin-right: -30%;
+}
+.contact .LIn
+{
+    margin: 15px;
+    background-color:rgb(119, 166, 194);
+    border-radius: 25px;
+    padding: 8px;
+    text-decoration: none;
+}
+.contact .LIn:hover{
+    background-color: rgb(167, 147, 95);
+}
+.contact .Ghub{
+    margin: 15px;
+    background-color:rgb(119, 166, 194);
+    border-radius: 25px;
+    padding: 8px;
+    text-decoration: none;
+}
+.contact .Ghub:hover{
+    background-color: rgb(167, 147, 95);
+}
+.objective{
+    margin-top: -25px;
+    background-color: #F7B787;
+    color:#20160d;
+    padding: 10%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+.education
+{
+    color: #302912;
+    margin-top: -20px;
+    background-color:#EE7214;
+    padding: 10%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+.education hr{
+    border: #1f170a solid 1px;
+}
+.about
+{
+   list-style-type: none; 
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   width: fit-content;
+
+}
+header li{
+    float: left;
+    margin: 15px;
+    background-color:rgb(126, 155, 128);
+    border-radius: 25px;
+}
+header li a{
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+header li:hover{
+    background-color: rgb(37, 48, 35);;
+    border-radius: 25px; 
+}
